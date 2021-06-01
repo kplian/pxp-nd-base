@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.yalc/
+yalc.lock
+# Ingore all modules but pxp
+/src/modules/*/
+!/src/modules/pxp
+package-lock.json

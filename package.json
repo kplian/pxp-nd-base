@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@pxp-nd/auth": "^1.0.7",
-    "@pxp-nd/core": "^1.0.10",
+    "@pxp-nd/core": "^1.1.1",
     "@pxp-nd/entities": "^1.0.10",
     "@pxp-nd/repositories": "^1.0.7",
     "dotenv": "^10.0.0",

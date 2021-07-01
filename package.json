@@ -21,7 +21,6 @@
     "dotenv": "^10.0.0",
     "jspdf-autotable": "^3.5.14",
     "lodash": "^4.17.21",
-    "pg": "^8.6.0",
     "typeorm": "^0.2.32"
   },
   "devDependencies": {

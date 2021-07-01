@@ -9,11 +9,11 @@ const { createConnections } = require('@pxp-nd/core');
 const connection = {
   name: 'default',
   type: 'postgres',
-  host: '3.138.174.37',
+  host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: 'postgres$',
-  database: 'dbsales_dev',
+  password: 'postgres',
+  database: 'dbpostgres',
 };
 
 module.exports = createConnections(connection);

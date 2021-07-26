@@ -15,11 +15,12 @@ import 'dotenv/config';
 import App from './App';
 
 const app = new App();
-app
-  .loadControllers()
-  .then(() => {
+(async function run() {
+  try {
+    await app.connectToTheDatabase();
+    await app.loadControllers()
     app.listen();
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+  } catch (e) {
+    console.log(e);    
+  }
+}());

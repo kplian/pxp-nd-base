@@ -14,8 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pxp-nd/auth": "^1.1.2",
-    "@pxp-nd/core": "^1.1.2",
+    "@pxp-nd/core": "^1.1.3",
     "dotenv": "^10.0.0",
     "jspdf-autotable": "^3.5.14",
     "lodash": "^4.17.21",

@@ -1,5 +1,10 @@
-export default {
+import { IConfigPxpApp } from '@pxp-nd/core';
+
+const config: IConfigPxpApp = {
   defaultDbSettings: 'Orm', // Orm, Procedure, Query
   apiPrefix: '/api',
-  logDuration: true
+  logDuration: true,
+  showRoutes: false,
 };
+
+export default config;

@@ -3,7 +3,6 @@ import config from './config';
 class App extends PxpApp {
   constructor() {
     super(config);
-    this.initializeMiddlewares();
   }
 }
 

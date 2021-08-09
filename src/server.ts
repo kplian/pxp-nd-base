@@ -15,10 +15,9 @@ import 'dotenv/config';
 import App from './App';
 
 const app = new App();
-(async function run() {
+(async function() {
   try {
-    await app.connectToTheDatabase();
-    await app.loadControllers()
+    await app.run();
     app.listen();
   } catch (e) {
     console.log(e);    
